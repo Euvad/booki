@@ -1,0 +1,93 @@
+/* Filter titles with the filters boxes*/
+#filter_container {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  #filter_child {
+    display: flex;
+    margin-left: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .filters_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin: 10px;
+    border: 3px solid #F2F2F2;
+    border-radius: 56px;
+    list-style-type: none;
+    cursor: pointer;
+  }
+  
+  .icon {
+    background-color: #DEEBFF;
+    color: #0065FC;
+    display: flex;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    padding: 20px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: -3px;
+  }
+  
+  .filter_title {
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  .filters_button:hover {
+    background-color: #DEEBFF;
+    border: 3px solid transparent;
+    transition: transform 500ms ease-in-out;
+    transform: scale(1.0100);
+    box-shadow: 2px 2px 8px 4px #DEEBFF;
+    transition: 0.5s box-shadow;
+  }
+  
+  .filters_button:hover>.icon {
+    color: white;
+    background-color: #0065FC;
+    transition: transform 500ms ease-in-out;
+    transform: scale(1.0100) rotate(360deg);
+  
+  }
+  
+  .filters_button:hover>.filter_title {
+    color: #0065FC;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .filters_button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      border: 3px solid #F2F2F2;
+      border-radius: 56px;
+      list-style-type: none;
+      cursor: pointer;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    #filter_container {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+
+    #filter_child {
+      margin-left: 0px;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+    .filter_main_title{
+      margin-left: 4%;
+    }
+  }

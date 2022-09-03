@@ -1,0 +1,222 @@
+
+.activity_main_title {
+    flex: 0 1 100%;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#Titre_Activités {
+    display: flex;
+    font-size: 22px;
+}
+#Partie2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+#Partie2 a:hover {
+    color: black;
+}
+#Partie2 h3 {
+    font-size: 15px;
+}
+.Activité1 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 415px;
+    width: 23%;
+    box-shadow: 3px 3px 3px lightgrey;
+}
+.Activité1:hover {
+    transform: scale(1.05);
+    transition: transform 250ms ease-in-out;
+}
+.Activité1 img {
+    width: 100%;
+    height: 370px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+.Activité1_titre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0 10px 15px;
+}
+.Activité2_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 23%;
+}
+.Activité2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 250px;
+    box-shadow: 3px 3px 3px lightgrey;
+    margin-bottom: 15px;
+}
+.Activité2:hover {
+    transform: scale(1.05);
+    transition: transform 250ms ease-in-out;
+}
+.Activité2 img {
+    width: 100%;
+    height: 205px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+.Activité2_titre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0 10px 15px;
+}
+.Activité3 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 150px;
+    box-shadow: 3px 3px 3px lightgrey;
+}
+.Activité3:hover {
+    transform: scale(1.05);
+    transition: transform 250ms ease-in-out;
+}
+.Activité3 img {
+    width: 100%;
+    height: 105px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+.Activité3_titre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0 10px 15px;
+}
+.Activité4 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 415px;
+    width: 23%;
+    box-shadow: 3px 3px 3px lightgrey;
+}
+.Activité4:hover {
+    transform: scale(1.05);
+    transition: transform 250ms ease-in-out;
+}
+.Activité4 img {
+    width: 100%;
+    height: 370px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+.Activité4_titre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0 10px 15px;
+}
+.Activité5_6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 23%;
+}
+.Activité5 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 200px;
+    box-shadow: 3px 3px 3px lightgrey;
+    margin-bottom: 15px;
+}
+.Activité5:hover {
+    transform: scale(1.05);
+    transition: transform 250ms ease-in-out;
+}
+.Activité5 img {
+    width: 100%;
+    height: 155px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+.Activité5_titre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0 10px 15px;
+}
+.Activité6 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 200px;
+    box-shadow: 3px 3px 3px lightgrey;
+}
+.Activité6:hover {
+    transform: scale(1.05);
+    transition: transform 250ms ease-in-out;
+}
+.Activité6 img {
+    width: 100%;
+    height: 155px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+.Activité6_titre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0 10px 15px;
+}
+
+@media only all and (max-width: 1024px){
+    .activity_main_title {
+        padding: 2%;
+    }
+}
+@media only all and (max-width: 550px){
+    #Titre_Activités {
+        margin-left: 5px;
+    }
+    .activity_main_title {
+        padding: 4%;
+    }
+    #Partie2 {
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+    }
+    #Partie2 h3 {
+        font-size: 15px;
+    }
+    .Activité1, .Activité2, .Activité3, .Activité4, .Activité5, .Activité6 {
+        width: 100%;
+        height: 20%;
+        margin-bottom: 25px;
+    }
+    .Activité2_3 {
+        width: 100%;
+    }
+    .Activité5_6 {
+        width: 100%;
+    }
+    .Activité1 img, .Activité2 img, .Activité3 img, .Activité4 img, .Activité5 img, .Activité6 img {
+        height: 200px;
+    }
+}
